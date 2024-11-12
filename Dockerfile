@@ -20,7 +20,7 @@ ENV MAVEN_HOME /usr/share/maven
 ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 
 
-COPY settings.xml /root/.m2/settings.xml
+--COPY settings.xml /root/.m2/settings.xml
 
 #install angular and node
 RUN curl -sL https://rpm.nodesource.com/setup_12.x
